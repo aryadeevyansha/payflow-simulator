@@ -19,7 +19,7 @@ This project simulates concurrent payment traffic and analyzes:
 ---
 
 ## Features
-
+- Rzorpay API integration using Test keys 
 - Async concurrent payment simulation using asyncio
 - Retry engine for recoverable failures
 - Structured JSON logging
@@ -101,8 +101,6 @@ streamlit run dashboard/app.py
 
 ## Future Improvements
 
-- PostgreSQL integration
-- Real Razorpay API integration
 - ML-based failure prediction
 - Real-time alerting
 - Partner SLA monitoring.
